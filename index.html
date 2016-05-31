@@ -1,49 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <title>About | Kelly Mersereau</title>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-    <link href="bootstrap/css/starter-template.css" rel="stylesheet">
-  </head>
-  <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"> Kelly Mersereau </a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-  
-          <ul class="nav navbar-nav">            
-            <li class="active">
-              <a href="#"> About </a>
-            </li>
-            <li>
-              <a href="portfolio.html"> Portfolio </a>
-            </li>
-            <li>
-              <a href="contact.html"> Contact </a>
-            </li>
-  
-          </ul>
+  <title>Kelly Mersereau</title>
 
-        </div>
-        <!--.nav collapse-->
+  <!-- Google Fonts - Roboto -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
 
+  <!--Import Google Icon Font-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!--Import materialize.css-->
+  <link rel="stylesheet" href="assets/css/materialize/css/materialize.min.css"  type="text/css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <div class="navbar-fixed">
+    <nav class="" role="navigation">
+      <div class="nav-wrapper container-fluid">
+        <a id="logo-container" href="#" class="brand-logo left condensed thin">Kelly Mersereau</a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="/"><i class="material-icons">home</i></a>
+          </li>
+          <li>
+            <a href="/aboutMe" class="condensed thin">About Me</a>
+          </li>
+          <li>
+            <a href="/portfolio" class="condensed thin">Portfolio</a>
+          </li>
+          <li>
+            <a href="/contact" class="condensed thin">Contact</a>
+          </li>
+        </ul>
+      <!-- for mobile use only -->
+        <ul id="slide-out" class="side-nav">
+          <li>
+            <a href="/"><i class="material-icons left">home</i> Home </a>
+          </li>
+          <li>
+            <a href="/aboutMe" class="condensed thin"><i class="material-icons left">person</i> About Me</a>
+          </li>
+          <li>
+            <a href="/portfolio" class="condensed thin"><i class="material-icons left">content_paste</i> Portfolio</a>
+          </li>
+          <li>
+            <a href="/contact" class="condensed thin"><i class="material-icons left">email</i> Contact</a>
+          </li>
+        </ul>
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons right">menu</i></a>
       </div>
     </nav>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+    
+  </div>
+
+  <!-- parallax -->
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax1.jpg"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header">Parallax</h2>
+      <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in this case, is moved at a different speed than the foreground content while scrolling.</p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="images/parallax2.jpg"></div>
+  </div>
+
+  <!--Import jQuery before materialize.js-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script type="text/javascript" src="assets/css/materialize/js/materialize.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
 </body>
 </html>

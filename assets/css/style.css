@@ -1,0 +1,6 @@
+li {
+	float: left;
+	z-index: 5px;
+	display: inline-block !important;
+	padding: 5px;
+}
